@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-page {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190822/pngtree-linear-sticker-school-life-sticker-green-chalkboard-background-image_304139.jpg");
+  height: 110vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-page {
+    align-items: center;
+  }
+}
+
+.mobishaala-title {
+  font-size: 40px;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .mobishaala-title {
+    font-size: 26px;
+  }
+}
+
+.mobishaala-description {
+  font-size: 26px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #ffffff;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .mobishaala-description {
+    font-size: 18px;
+  }
+}
+
+.mobishaala-span-description {
+  color: rgb(219, 219, 54);
+}
+
+.title-description-container {
+  margin-right: 20px;
+}
+
+.title-video-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .title-video-container {
+    flex-direction: column;
+  }
+}
+
+.video {
+  height: 300px;
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .video {
+    height: 200px;
+    width: 300px;
+    flex-shrink: 2;
+  }
+}
+
+.list-container {
+  list-style-type: circle;
+  color: #ffffff;
+  font-size: 19px;
+  font-family: "Roboto";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .list-container {
+    display: none;
+  }
+}
+
+.button-description-containers {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .button-description-containers {
+    text-align: center;
+  }
+}
+
+.get-started-button {
+  outline: none;
+  border: none;
+  background-color: rgb(222, 28, 28);
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.role {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .role {
+    text-align: center;
+  }
+}
+
+.buy-button {
+  outline: none;
+  border: none;
+  background-color: rgb(222, 28, 28);
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.video-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .video-button-container {
+    display: none;
+  }
+}
+
+.video-conatiner-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-button-container-small {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .video-button-container-small {
+    display: block;
+  }
+}
+
+.student-download-button {
+  outline: none;
+  border: none;
+  background-color: rgb(222, 28, 28);
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: bold;
+  height: 40px;
+  width: 140px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-description-container-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .button-description-container-2 {
+    justify-content: center;
+  }
+}
+
+.whatsapp-icon {
+  height: 30px;
+  width: 30px;
+  padding-top: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  .whatsapp-icon {
+    height: 20px;
+    width: 20px;
+    padding-right: 8px;
+    padding-top: 10px;
+  }
+}
+
+.talk-to-us-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.whatsapp-icon-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.whatsapp-button {
+  outline: none;
+  border: none;
+  background-color: rgb(99, 233, 102);
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: bold;
+  height: 60px;
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .whatsapp-button {
+    height: 40px;
+    margin-top: 5px;
+  }
+}
+
+.footer-container {
+  background-color: rgb(214, 18, 18);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+.vision-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.decor {
+  text-decoration: none;
+}
+
+.vision-description {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.vision {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+.address-description {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.address-description-1 {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .address-description-1 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .address-description {
+    display: none;
+  }
+}
+
+.address {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.sub-head {
+  font-weight: bold;
+}
+
+.links-title {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  margin: 5px;
+}
+
+.links {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 200;
+  text-decoration: none;
+}
