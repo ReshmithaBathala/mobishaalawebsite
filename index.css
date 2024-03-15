@@ -4,16 +4,32 @@
   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190822/pngtree-linear-sticker-school-life-sticker-green-chalkboard-background-image_304139.jpg");
   height: 110vh;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
   .main-page {
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
+}
+
+.sub-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.video-conatiner-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobishaala-title {
@@ -51,18 +67,15 @@
 .title-description-container {
   margin-right: 20px;
 }
-
+.whole-description-container {
+  display: flex;
+  flex-direction: column;
+}
 .title-video-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-left: 10px;
-}
-
-@media screen and (max-width: 768px) {
-  .title-video-container {
-    flex-direction: column;
-  }
 }
 
 .video {
@@ -79,19 +92,17 @@
 }
 
 .list-container {
-  list-style-type: circle;
-  color: #ffffff;
-  font-size: 19px;
-  font-family: "Roboto";
-  font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .list-container {
-    display: none;
+    list-style-type: circle;
+    color: #ffffff;
+    font-size: 19px;
+    font-family: "Roboto";
+    font-weight: 400;
+    display: block;
   }
 }
 
@@ -147,37 +158,9 @@
   margin-top: 10px;
 }
 
-.video-button-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
+.btn-container {
+  text-align: center;
 }
-
-@media screen and (max-width: 768px) {
-  .video-button-container {
-    display: none;
-  }
-}
-
-.video-conatiner-small {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.video-button-container-small {
-  display: none;
-}
-
-@media screen and (max-width: 768px) {
-  .video-button-container-small {
-    display: block;
-  }
-}
-
 .student-download-button {
   outline: none;
   border: none;
@@ -253,6 +236,17 @@
   .whatsapp-button {
     height: 40px;
     margin-top: 5px;
+  }
+}
+
+.video-button-container {
+  text-align: center;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .video-button-container {
+    display: none;
   }
 }
 
@@ -354,4 +348,14 @@
   font-family: "Roboto";
   font-weight: 200;
   text-decoration: none;
+}
+.video-button-container-2 {
+  text-align: center;
+  display: none; /* Initially hidden */
+}
+
+@media screen and (max-width: 768px) {
+  .video-button-container-2 {
+    display: block; /* Display on small devices */
+  }
 }
